@@ -481,19 +481,21 @@ const handleSubmit = (e) => {
            
 
             {/* Login Link */}
-            <div className="text-center mt-4">
-              <p className="text-gray-600 text-sm">
-                Already have an account?{' '}
-                <button className="text-teal-600 hover:text-teal-800 font-semibold transition-colors">
-                  Sign in here
-                </button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+                  <div className="text-center mt-4">
+                    <p className="text-gray-600 text-sm">
+                    Already have an account?{' '}
+                    <button 
+                      onClick={() => window.location.href = '/'}
+                      className="text-teal-600 hover:text-teal-800 font-semibold transition-colors">
+                      Sign in here
+                    </button>
+                    </p>
+                  </div>
+                  </div>
+                </div>
+                </div>
 
-      {/* Mobile Header for small screens */}
+                {/* Mobile Header for small screens */}
       <div className="md:hidden absolute top-4 left-1/2 -translate-x-1/2">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-white">AutoPaws</h1>
